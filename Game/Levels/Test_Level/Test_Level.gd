@@ -15,5 +15,4 @@ func _process(delta: float) -> void:
 # Instantiates dummy
 func instantiate_dummy():
 	var dummy = dummyChar.instantiate()
-	
 	get_tree().current_scene.add_child.call_deferred(dummy)
